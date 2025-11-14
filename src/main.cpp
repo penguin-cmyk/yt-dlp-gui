@@ -4,13 +4,6 @@
 #include "ImGuiFileDialog.h"
 #include "style.h"
 
-
-namespace toggles {
-    bool playlistSettings = false;
-    bool videoSettings    = false;
-    bool audioSettings    = false;
-}
-
 int main()
 {
     gui::CreateWindow("Test window", gui::WIDTH, gui::HEIGHT);

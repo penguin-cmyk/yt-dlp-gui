@@ -7,7 +7,6 @@ set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/dependencies/imgui)
 set(GLFW_DIR  ${CMAKE_SOURCE_DIR}/dependencies/GLFW)
 
 set(GUI_DIR   ${CMAKE_SOURCE_DIR}/src/gui)
-set(ENV_DIR   ${CMAKE_SOURCE_DIR}/src/env)
 
 set(SOURCES
         ${IMGUI_DIR}/imgui.cpp
